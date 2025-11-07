@@ -76,6 +76,8 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     ansi (1.5.0)
     ast (2.4.3)
+    autoprefixer-rails (10.4.21.0)
+      execjs (~> 2)
     base64 (0.3.0)
     bcrypt_pbkdf (1.1.1-x64-mingw-ucrt)
     benchmark (0.4.1)
@@ -83,6 +85,9 @@ GEM
     bindex (0.8.1)
     bootsnap (1.18.6)
       msgpack (~> 1.2)
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
     brakeman (7.1.0)
       racc
     builder (3.3.0)
@@ -110,6 +115,7 @@ GEM
     erubi (1.13.1)
     et-orbi (1.2.11)
       tzinfo
+    execjs (2.10.0)
     ffi (1.17.2-x64-mingw-ucrt)
     formatador (1.2.2)
       reline
@@ -309,6 +315,8 @@ GEM
       rubocop-rails (>= 2.30)
     ruby-progressbar (1.13.0)
     rubyzip (2.4.1)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     securerandom (0.4.1)
     selenium-webdriver (4.34.0)
       base64 (~> 0.2)
@@ -379,6 +387,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  bootstrap-sass
   brakeman
   capybara
   debug
